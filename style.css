@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    background-color: black;
+    height: 40px;
+    justify-content: space-between;
+    padding: 20px 30px;
+    gap: 20px;
+    row-gap: 10px;
+}
+
+.center{
+    height: 800px;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/img24/Beauty/QC/Shampoosconditionerspc._CB548663682_.png'); /* Replace with your image URL or path */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents repeating */
+}
+
+.box{
+    text-align: center;
+    border: 2px solid;
+    background-color: aliceblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-items {
+    background-color: white;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
