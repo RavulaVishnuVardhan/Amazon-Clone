@@ -1,0 +1,1 @@
+An Amazon clone built with modern web technologies, replicating the core functionalities of the Amazon e-commerce platform. This project is designed for educational purposes, demonstrating how to build a scalable, responsive, and dynamic e-commerce application.
