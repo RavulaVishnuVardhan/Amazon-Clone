@@ -223,3 +223,110 @@ ul a{
     color: white;
     margin-left: 20px;
 }
+
+/* Small devices (phones, 0px - 600px) */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: row;
+        height: auto;
+        padding: 10px;
+    }
+
+    .searchbar {
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .panel {
+        flex-direction: row;
+        height: auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .panel-list {
+        width: 100%;
+    }
+
+    .panel-list p {
+        flex-direction: row;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+
+    .background {
+        height: 200px;
+    }
+
+    .msg {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .shopping-section {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .box {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .footer2 {
+        flex-direction: row;
+        height: auto;
+        padding: 20px 0;
+        gap: 20px;
+    }
+
+    .footer3, .footer4 {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .img {
+        height: 40px;
+        width: 120px;
+    }
+
+    .navbar-logo {
+        width: 100px;
+        height: 40px;
+    }
+}
+
+/* Medium devices (tablets, 601px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .searchbar {
+        width: 70%;
+    }
+
+    .panel-list p {
+        margin-left: 15px;
+    }
+
+    .box {
+        width: 45%;
+    }
+
+    .footer2 {
+        flex-wrap: wrap;
+    }
+
+    .img {
+        height: 45px;
+        width: 140px;
+    }
+}
+
+/* Large devices (laptops/desktops, 1025px and above) */
+@media (min-width: 1025px) {
+    .searchbar {
+        width: 600px;
+    }
+
+    .box {
+        width: 24%;
+    }
+}
